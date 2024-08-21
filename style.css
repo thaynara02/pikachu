@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #D09A97;
+}
+
+.cabecalho{
+    height: 80px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.logo img{
+    width: 128px;
+    height: 128px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.menu li a{
+    align-items: center;
+}
+
+.home{
+    display: flex;
+    padding: 0 80px;
+}
+
+.home .imagem img{
+    border-radius: 80%;
+}
+
+.home .textao{
+    align-items: center;
+}
